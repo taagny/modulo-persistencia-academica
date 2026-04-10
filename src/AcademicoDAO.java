@@ -5,7 +5,7 @@ import java.util.List;
 public class AcademicoDAO {
     private static final String URL    = "jdbc:mysql://localhost:3306/unipac_academico";
     private static final String USUARIO = "root";
-    private static final String SENHA   = "";  // XAMPP não tem senha por padrão
+    private static final String SENHA   = "";
 
     private Connection conectar() throws SQLException {
         return DriverManager.getConnection(URL, USUARIO, SENHA);
