@@ -7,7 +7,6 @@ public class AcademicoDAO {
     private static final String USUARIO = "root";
     private static final String SENHA   = "";  // XAMPP não tem senha por padrão
 
-    // Método privado que abre a conexão — só o DAO conhece isso
     private Connection conectar() throws SQLException {
         return DriverManager.getConnection(URL, USUARIO, SENHA);
     }
